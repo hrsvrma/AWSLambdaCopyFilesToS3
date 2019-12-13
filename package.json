@@ -1,0 +1,16 @@
+{
+  "name": "awslambdacopyfilestos3",
+  "version": "1.0.0",
+  "description": "Simple AWS Lambda function to download files from given URLs and store those files in Amazon S3 storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harish Verma",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.584.0",
+    "request": "2.88.0",
+    "request-promise": "4.2.5"
+  }
+}
